@@ -48,7 +48,7 @@ flutter doctor
 ### Passos
 
 ```bash
-https://github.com/leandroregisdasilva-sys/fastlocation
+git clone https://github.com/leandroregisdasilva-sys/fastlocation.git
 cd fastlocation
 flutter pub get
 dart run build_runner build --delete-conflicting-outputs
@@ -145,23 +145,18 @@ O fluxo de uma consulta segue as camadas: `page` → `controller` (MobX) → `se
 - Cada CEP aparece uma única vez no histórico; ao ser consultado de novo, volta para o topo.
 - Falhas de rede, tempo esgotado e dados inválidos são convertidos em mensagens claras, exibidas por uma reação do MobX.
 
-
 ## Demonstração
 
-Vídeo do aplicativo em execução: https://youtube.com/shorts/5bs5O_CMiwc?feature=share
+Vídeo do aplicativo em execução: [assistir no YouTube](https://youtube.com/shorts/5bs5O_CMiwc)
 
-| Abertura | Resultado da consulta | Histórico |
-
+| Abertura | Nova consulta | Carregando |
 |---|---|---|
+| <img src="docs/prints/01-abertura.jpg" width="220"> | <img src="docs/prints/03-consulta-cep.jpg" width="220"> | <img src="docs/prints/04-carregando.jpg" width="220"> |
 
-| ![Abertura](docs/prints/01-abertura.jpg) |
-![Resultado](docs/prints/05-resultado.jpg) |
-![Histórico](docs/prints/08-historico.jpg) |
-
-| Busca por endereço | Não encontrado | Rota no mapa |
-
+| Resultado da consulta | Busca por endereço | Não encontrado |
 |---|---|---|
+| <img src="docs/prints/05-resultado.jpg" width="220"> | <img src="docs/prints/06-busca-endereco.jpg" width="220"> | <img src="docs/prints/07-nao-encontrado.jpg" width="220"> |
 
-| ![Busca](docs/prints/06-busca-endereco.jpg) |
-![Vazio](docs/prints/07-nao-encontrado.jpg) |
-![Rota](docs/prints/09-rota.jpg) |
+| Home vazia | Histórico | Rota no mapa |
+|---|---|---|
+| <img src="docs/prints/02-home-vazia.jpg" width="220"> | <img src="docs/prints/08-historico.jpg" width="220"> | <img src="docs/prints/09-rota.jpg" width="220"> |
