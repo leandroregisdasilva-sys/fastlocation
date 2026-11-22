@@ -144,3 +144,22 @@ O fluxo de uma consulta segue as camadas: `page` → `controller` (MobX) → `se
 - Na busca por endereço, a UF é obrigatória e cidade e logradouro precisam de pelo menos 3 letras (exigência da ViaCEP).
 - Cada CEP aparece uma única vez no histórico; ao ser consultado de novo, volta para o topo.
 - Falhas de rede, tempo esgotado e dados inválidos são convertidos em mensagens claras, exibidas por uma reação do MobX.
+
+
+## Demonstração
+
+Vídeo do aplicativo em execução: https://youtube.com/shorts/5bs5O_CMiwc?feature=share
+
+| Abertura | Resultado da consulta | Histórico |
+
+|---|---|---|
+
+| ![Abertura](docs/prints/01-abertura.png) | ![Resultado](docs/prints/05
+resultado.png) | ![Histórico](docs/prints/08-historico.png) |
+
+| Busca por endereço | Não encontrado | Rota no mapa |
+
+|---|---|---|
+
+| ![Busca](docs/prints/06-busca-endereco.png) | ![Vazio](docs/prints/07-nao
+encontrado.png) | ![Rota](docs/prints/09-rota.png) |
