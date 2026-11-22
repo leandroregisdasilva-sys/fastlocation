@@ -154,12 +154,14 @@ Vídeo do aplicativo em execução: https://youtube.com/shorts/5bs5O_CMiwc?featu
 
 |---|---|---|
 
-| ![Abertura](docs/prints/01-abertura.jpg) | ![Resultado](docs/prints/05
-resultado.jpg) | ![Histórico](docs/prints/08-historico.jpg) |
+| ![Abertura](docs/prints/01-abertura.jpg) |
+![Resultado](docs/prints/05-resultado.jpg) |
+![Histórico](docs/prints/08-historico.jpg) |
 
 | Busca por endereço | Não encontrado | Rota no mapa |
 
 |---|---|---|
 
-| ![Busca](docs/prints/06-busca-endereco.jpg) | ![Vazio](docs/prints/07-nao
-encontrado.jpg) | ![Rota](docs/prints/09-rota.jpg) |
+| ![Busca](docs/prints/06-busca-endereco.jpg) |
+![Vazio](docs/prints/07-nao-encontrado.jpg) |
+![Rota](docs/prints/09-rota.jpg) |
