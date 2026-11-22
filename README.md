@@ -48,7 +48,7 @@ flutter doctor
 ### Passos
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
+https://github.com/leandroregisdasilva-sys/fastlocation
 cd fastlocation
 flutter pub get
 dart run build_runner build --delete-conflicting-outputs
